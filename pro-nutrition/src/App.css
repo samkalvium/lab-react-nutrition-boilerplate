@@ -1,0 +1,61 @@
+.box {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.right-items {
+  width: 18%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.media {
+  background-color: grey;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.field {
+  display: flex;
+}
+
+
+/* image size */
+.is-64x64 img {
+  width: 64px;
+  height: 64px;
+}
+
+/* PLUS button */
+.control input {
+  border: 2px solid rebeccapurple;
+}
+
+.is-info {
+  background-color: rebeccapurple;
+  border: 2px solid rebeccapurple;
+}
+
+
+/* RESET BUTTON  */
+.reset {
+  margin-left: 10px;
+  background-color: grey;
+  color: white;
+  border: none;
+  padding: 4px;
+  border-radius: 10px;
+  border-bottom: 3px solid rgb(167, 166, 166);
+  cursor: pointer;
+}
+
+/* SEARCH BUTTON  */
+.search input{
+  border: 2px solid rebeccapurple;
+}
